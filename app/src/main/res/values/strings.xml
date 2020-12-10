@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">MAVPARKING</string>
+    <string-array name="Users">
+        <item>Off-campus Student</item>
+        <item>Resident Student</item>
+        <item>Professor</item>
+        <item>Security</item>
+    </string-array>
+
+    <string-array name="Questions">
+        <item>What middle school did you attend?</item>
+        <item>In what town or city was your first full time job?</item>
+        <item>Name of your favorite Professor?</item>
+        <item>Favorite TV show?</item>
+    </string-array>
+
+    <string-array name="Off_CampusStudents">
+        <item>Reserved-Garage</item>
+        <item>Preferred-Garage</item>
+        <item>Preferred-Night Only</item>
+        <item>Upgrade-LOT 34,36, 37</item>
+        <item>Upgrade-Nights Only</item>
+        <item>Commuting Student</item>
+        <item>Reduced Rate-LOT 50s</item>
+        <item>Motorcycle</item>
+        <item>Remote Parking and Ride</item>
+    </string-array>
+
+    <string-array name="StaffPermits">
+        <item>Reserved-Garage</item>
+        <item>Preferred-Garage</item>
+        <item>Preferred-Night Only</item>
+        <item>Reserved-Surface LOT</item>
+        <item>Faculty/Staff LOTs</item>
+        <item>Reduced Rate-LOT 50s</item>
+        <item>Motorcycle</item>
+    </string-array>
+
+    <string-array name="ResidentStudent">
+        <item>Dual</item>
+        <item>Resident LOTs</item>
+        <item>Motocycle</item>
+    </string-array>
+
+    <string-array name="Guest">
+        <item>Long-Term</item>
+        <item>Week|Month</item>
+        <item>Garage Visitor/Guest</item>
+    </string-array>
+
+    <string-array name="SemesterDuration">
+        <item>Annual</item>
+        <item>Fall</item>
+        <item>Summer</item>
+    </string-array>
+
+    <string-array name="GuestDuration">
+        <item>Annual | Day</item>
+        <item>Fall | Week</item>
+        <item>Summer | Month</item>
+    </string-array>
+</resources>

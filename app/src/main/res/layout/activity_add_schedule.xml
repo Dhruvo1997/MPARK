@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Schedule"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:id="@+id/ShutID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shuttle ID: "
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="125dp" />
+
+    <EditText
+        android:id="@+id/ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Uxxx (x's are #s)"
+        android:textSize="20dp"
+        android:layout_toRightOf="@id/ShutID"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="115dp" />
+
+    <TextView
+        android:id="@+id/DaysRun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Days: "
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="175dp" />
+
+    <EditText
+        android:id="@+id/Days"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="M,T,W,TH,F,SA,SU"
+        android:textSize="20dp"
+        android:layout_toRightOf="@id/ShutID"
+        android:layout_marginLeft="-40dp"
+        android:layout_marginTop="165dp" />
+
+    <TextView
+        android:id="@+id/TimesRun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Times: "
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="225dp" />
+
+    <EditText
+        android:id="@+id/Times"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter in 0700-1400 Format"
+        android:textSize="20dp"
+        android:layout_toRightOf="@id/ShutID"
+        android:layout_marginLeft="-30dp"
+        android:layout_marginTop="215dp" />
+
+    <TextView
+        android:id="@+id/LocationsRun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Locations: "
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="275dp" />
+
+    <EditText
+        android:id="@+id/Locations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Ex: Walmart,UC,MAC,etc."
+        android:textSize="20dp"
+        android:layout_toRightOf="@id/ShutID"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="265dp" />
+
+    <Button
+        android:id="@+id/Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="22dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="325dp"
+        app:backgroundTint="#3F51B5"/>
+
+    <Button
+        android:id="@+id/Cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:textSize="22dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="425dp"
+        app:backgroundTint="#3F51B5"/>
+
+    <Button
+        android:id="@+id/Exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:textSize="22dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"
+        app:backgroundTint="#FF5722"/>
+
+
+</RelativeLayout>

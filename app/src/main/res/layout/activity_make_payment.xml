@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payments"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:id="@+id/AmtDue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amount Due: "
+        android:textSize="22dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="125dp" />
+
+    <TextView
+        android:id="@+id/AMT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="200"
+        android:textSize="22dp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="125dp" />
+
+    <Button
+        android:id="@+id/CashPayment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cash Payment"
+        android:textSize="22dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        app:backgroundTint="#3F51B5" />
+
+    <Button
+        android:id="@+id/CardPayment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Card Payment"
+        android:textSize="22dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="275dp"
+        app:backgroundTint="#3F51B5" />
+
+    <Button
+        android:id="@+id/Exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main Menu"
+        android:textSize="22dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"
+        app:backgroundTint="#FF5722" />
+
+
+</RelativeLayout>

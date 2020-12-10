@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="391dp"
+        android:layout_weight="1"
+
+        android:layout_marginLeft="5dp"
+        app:srcCompat="@drawable/rate2" />
+
+    <TextView
+        android:id="@+id/UserTypetxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="400dp"
+        android:text="Permit Type:"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        tools:visibility="visible" />
+
+
+    <Spinner
+        android:id="@+id/UserType"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="401dp"
+        android:layout_toRightOf="@+id/UserTypetxt" />
+
+    <TextView
+        android:id="@+id/Durationtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="450dp"
+        android:text="Duration:"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        tools:visibility="visible" />
+
+
+    <Spinner
+        android:id="@+id/Duration"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="451dp"
+        android:layout_toRightOf="@+id/UserTypetxt" />
+
+    <TextView
+        android:id="@+id/Totaltxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="488dp"
+        android:text="Total is 1100"
+        android:textSize="22dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"/>
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/Calculate"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="520dp"
+        android:text="Calculate Amount Due"
+        android:textSize="20dp"
+        app:backgroundTint="#3F51B5" />
+
+
+    <Button
+        android:id="@+id/BackToHomeScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="610dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="50dp"
+        android:text="Main Menu"
+        android:textSize="12dp"
+        app:backgroundTint="#FF5722" />
+
+    <Button
+        android:id="@+id/Payment"
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="610dp"
+        android:layout_marginBottom="50dp"
+        android:text="Make Payment"
+        android:textSize="12dp"
+        app:backgroundTint="#3F51B5" />
+
+</RelativeLayout>

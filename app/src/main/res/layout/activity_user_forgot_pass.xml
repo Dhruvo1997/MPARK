@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="Forgot Password?"
+        android:textSize="35dp"
+        tools:visibility="visible"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/Username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="175dp"
+        android:text="Username:"
+        android:textSize="22dp"
+        tools:visibility="visible"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/Username_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="165dp"
+        android:textSize="17dp"
+        android:layout_toRightOf="@+id/Username"
+        android:hint=" School Email " />
+
+    <TextView
+        android:id="@+id/Question"
+        android:layout_width="329dp"
+        android:layout_height="76dp"
+        android:layout_below="@+id/Username"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="35dp"
+        android:text="Password:"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        tools:visibility="visible" />
+
+    <EditText
+        android:id="@+id/Question_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:hint="Answer"
+        android:textSize="17dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Question"/>
+
+    <Button
+        android:id="@+id/ShowQuestion"
+        android:layout_width="263dp"
+        android:layout_height="61dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="50dp"
+        android:text="Find Security Question"
+        android:textSize="12dp"
+        app:backgroundTint="#3F51B5" />
+
+    <Button
+        android:id="@+id/Submit"
+        android:layout_width="272dp"
+        android:layout_height="83dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="50dp"
+        android:text="Submit"
+        android:textSize="20dp"
+        app:backgroundTint="#3F51B5" />
+
+    <Button
+        android:id="@+id/BackToLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="620dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="50dp"
+        android:text="Back To Login"
+        android:textSize="12dp"
+        app:backgroundTint="#FF5722" />
+
+
+</RelativeLayout>

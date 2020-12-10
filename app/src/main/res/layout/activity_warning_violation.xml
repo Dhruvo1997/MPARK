@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+
+
+    <Button
+
+        android:id="@+id/button"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_margin="100dp"
+
+        android:backgroundTint="@color/black"
+
+        android:text="No Record of violation found"
+
+        android:minWidth="100dp"
+
+        android:height="130dp"
+
+        android:gravity="left"
+
+        tools:layout_editor_absoluteX="62dp"
+
+        tools:layout_editor_absoluteY="306dp" />
+
+    <Button
+        android:id="@+id/Exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:textSize="22dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"
+        app:backgroundTint="#FF5722"/>
+
+</RelativeLayout>
