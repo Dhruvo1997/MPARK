@@ -9,9 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MAVPARKING">
-        <activity android:name=".WarningViolation"></activity>
+        <activity android:name=".IDCheck"></activity>
+        <activity android:name=".Communication" />
+        <activity android:name=".WarningViolation" />
         <activity android:name=".ViewSchedule" />
-        <activity android:name=".Validate" />
         <activity android:name=".UserForgotPass" />
         <activity android:name=".SubmitSchedule" />
         <activity android:name=".StudentParkingInformation" />

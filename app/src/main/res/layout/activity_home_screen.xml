@@ -222,7 +222,7 @@
 
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
-            android:id="@+id/Validate_plate"
+            android:id="@+id/Communications"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_rowWeight="1"
@@ -250,7 +250,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text=" \n \t \tValidate"
+                    android:text=" \n \t \Communicate"
                     android:textColor="@color/material_on_background_emphasis_high_type"
                     android:textAppearance="@color/cardview_shadow_end_color"
                     android:textSize="20dp">

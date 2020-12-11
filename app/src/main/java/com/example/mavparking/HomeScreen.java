@@ -20,7 +20,7 @@ public class HomeScreen extends AppCompatActivity implements View.OnClickListene
     public CardView  parking;
     public CardView shuttl;
     public CardView warning;
-    public CardView validate;
+    public CardView communicate;
     public CardView contact;
     public CardView general;
 
@@ -33,7 +33,7 @@ public class HomeScreen extends AppCompatActivity implements View.OnClickListene
         parking = (CardView)findViewById(R.id.Parking_Info);
         shuttl =  (CardView)findViewById(R.id.Shuttl_info);
         warning = (CardView)findViewById(R.id.Warning_Viloation);
-        validate = (CardView)findViewById(R.id.Validate_plate);
+        communicate = (CardView)findViewById(R.id.Communications);
         contact = (CardView)findViewById(R.id.Conatact_Info);
         general = (CardView)findViewById(R.id.Make_Payment);
         buy.setOnClickListener(this);
@@ -41,7 +41,7 @@ public class HomeScreen extends AppCompatActivity implements View.OnClickListene
         parking.setOnClickListener(this);
         shuttl.setOnClickListener(this);
         warning.setOnClickListener(this);
-        validate.setOnClickListener(this);
+        communicate.setOnClickListener(this);
         contact.setOnClickListener(this);
         general.setOnClickListener(this);
     }
@@ -101,8 +101,8 @@ public class HomeScreen extends AppCompatActivity implements View.OnClickListene
 
 
 
-            case R.id.Validate_plate:
-                k= new Intent(this, Validate.class);
+            case R.id.Communications:
+                k= new Intent(this, Communication.class);
 
                 startActivity(k);
 
